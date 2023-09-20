@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        figure{
+            width: 150px;
+            height: 150px;
+            float: left;
+        }
+        img{
+            transition: ease 0.5s;
+        }
+        img:hover{
+            -webkit-filter: none;
+            -moz-filter: none;
+            -o-filter: none;
+            filter: none;
+            cursor: pointer;
+        }
+        .blur{
+            -webkit-filter: blur(5px);
+            -moz-filter:  blur(5px);
+            -o-filter:  blur(5px);
+            filter:  blur(5px);
+            cursor:  blur(5px);
+        }
+        .gray{
+            -webkit-filter: grayscale(100%);
+            -moz-filter:  grayscale(100%);
+            -o-filter:  grayscale(100%);
+            filter:   grayscale(100%);
+            cursor:   grayscale(100%);
+        }
+        .bright{
+            -webkit-filter: brightness(200%);
+            -moz-filter:  brightness(200%);
+            -o-filter:brightness(200%);
+            filter:   brightness(200%);
+            cursor:   brightness(200%);
+        }
+        .contrast{
+            -webkit-filter: contrast(200%);
+            -moz-filter:    contrast(200%);
+            -o-filter:      contrast(200%);
+            filter:         contrast(200%);
+            cursor:         contrast(200%);
+        }
+        .drop{
+            -webkit-filter: drop-shadow(8px 8px 10px #333);
+            -moz-filter:    drop-shadow(8px 8px 10px #333);
+            -o-filter:      drop-shadow(8px 8px 10px #333);
+            filter:         drop-shadow(8px 8px 10px #333);
+            cursor:         drop-shadow(8px 8px 10px #333);
+        }
+        .hue{
+            -webkit-filter: hue-rotate(90deg);
+            -moz-filter:    hue-rotate(90deg);
+            -o-filter:      hue-rotate(90deg);
+            filter:         hue-rotate(90deg);
+            cursor:         hue-rotate(90deg);
+        }
+        .invert{
+            -webkit-filter: invert(100%);
+            -moz-filter:    invert(100%);
+            -o-filter:      invert(100%);
+            filter:         invert(100%);
+            cursor:         invert(100%);
+        }
+        .opacity{
+            -webkit-filter: opacity(30%);
+            -moz-filter:    opacity(30%);
+            -o-filter:      opacity(30%);
+            filter:         opacity(30%);
+            cursor:         opacity(30%);
+        }
+        .saturacao{
+            -webkit-filter: saturate(8);
+            -moz-filter:    saturate(8);
+            -o-filter:      saturate(8);
+            filter:         saturate(8);
+            cursor:         saturate(8);
+        }
+        .sepia{
+            -webkit-filter: sepia(100%);
+            -moz-filter:    sepia(100%);
+            -o-filter:      sepia(100%);
+            filter:         sepia(100%);
+            cursor:         sepia(100%);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>exemplo de filter</h1>
+
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="blur">
+        <figcaption>
+            efeito blur
+        </figcaption>
+
+    </figure>
+
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="gray">
+        <figcaption>
+            efeito grayscale
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="bright">
+        <figcaption>
+            efeito bright
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="contrast">
+        <figcaption>
+            efeito contrast
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="drop">
+        <figcaption>
+            efeito drop-shadow
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="hue">
+        <figcaption>
+            efeito rotate-90
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="invert">
+        <figcaption>
+            efeito invert
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="opacity">
+        <figcaption>
+            efeito opacity
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="saturacao">
+        <figcaption>
+            efeito saturacao
+        </figcaption>
+
+    </figure>
+    <figure>
+        <img src="imagens/foto01.jpg" alt="Foto" title="Foto"
+        class="sepia">
+        <figcaption>
+            efeito sepia
+        </figcaption>
+
+    </figure>
+
+
+
+</body>
+</html>
